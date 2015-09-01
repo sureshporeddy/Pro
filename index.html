@@ -9,9 +9,13 @@
 <button id="clear">Clear</button>
 <div id="results"></div>
 <script src="zepton.js"></script>
+<script src="new.js"></script>
 <script>
-$("#id1").click(funtion(){
+$("#id1").click(function(){
   SILLY.DoIt($('#results'));
+});
+$("#clear").click(function(){
+  $('#results').html('');
 });
 </script>
 </body>
